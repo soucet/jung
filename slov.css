@@ -1,0 +1,242 @@
+BODY {
+	/*background-image: url(back8.jpg);
+	color: #cccccc;*/
+	background-color: #FFFDFB;/*fffaf4*/
+	text-align: justify;
+	margin: 0 auto 0 auto;
+	font-family: "Palatino Linotype","Book Antiqua","URW Palladio L",serif;
+	/* font-size: 11pt; */
+	max-width: 950px;
+}
+P {
+	text-indent: 3ex;
+	margin-bottom: -1.8ex;
+}
+P:first-child {
+	padding-top: 8px;
+}
+A {
+	color: Black;
+	text-decoration: none;
+	border-bottom: 1px dashed #D3D3D3;
+}
+A:visited {
+	color: Black;
+	text-decoration: none;
+	border-bottom: 1px dashed #D3D3D3;
+}
+A:hover {
+	color: Red;
+	text-decoration: none;
+	border-bottom: 1px dashed Red;
+}
+A SUP {
+	color: Black;
+	border-bottom: 0px none Red;
+}
+A IMG {
+	text-decoration: none;
+	border: thin dotted Navy;
+}
+H2 {
+	margin-bottom: 5ex;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-family: sans-serif;
+	text-align: center;
+}
+H3 {
+	margin-top: 5ex;
+	margin-bottom: 0.5ex;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-size: 125%;
+	font-weight: normal;
+}
+H4 {
+	margin-top: 2ex;
+	padding-top: 8px;
+	margin-bottom: -1ex;
+	text-align: left;
+	letter-spacing: 0px;
+	font-size: normal;
+	font-weight: normal;
+}
+
+SUP {
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 75%;
+	color: Black;
+}
+TABLE {
+	margin-top: 0ex;
+	border-color: Black;
+	font-size: 90%;
+}
+HR {
+	margin-top: -0.5ex;
+	margin-bottom: 0.6ex;
+}
+.modra HR {
+	margin-top: -1.5ex;
+}
+.cerna HR {
+	margin-top: -1.5ex;
+}
+OL {
+	margin: 2.2ex 0 -1.7ex -2.2ex;
+}
+OL OL {
+	margin: 0.5ex 0 -1.7ex -2.6ex;
+}
+LI {
+	margin-bottom: 0.5ex;
+}
+BLOCKQUOTE {
+	font-size: 90%;
+	margin: 3.5ex 5ex -0.5ex 6ex;
+}
+/*
+I {
+	letter-spacing: 1px;
+}
+.p I {
+	letter-spacing: 0px;
+}
+*/
+
+
+.xp {
+	text-indent: 0px;
+}
+.x {
+	margin-top: 3.2ex;
+}
+.p {
+	font-size: small;
+	text-align: left;
+	margin-bottom: -2ex;
+}
+.xn {
+	margin-top: 3ex;
+	letter-spacing: 3px;
+}
+.h {
+	font-family: serif;
+}
+.o {
+	text-indent: 0px;
+	margin-top: 5.2ex;
+	margin-bottom: -0.2ex;
+	font-size: smaller;
+	text-align: center;
+}
+.ol {
+	text-indent: 0px;
+	margin: 1ex 4ex 14px 0;
+	font-size: smaller;
+	text-align: center;
+}
+.op {
+	text-indent: 0px;
+	margin: 0.2ex 0 10px 16px;
+	font-size: smaller;
+	text-align: left;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+.bezova {
+	background-color: #FFF8F0;
+	margin: -10px -0.9cm 0 -0.9cm;
+	padding: 0px 0.9cm 28px 0.9cm;
+}
+.modra {
+	background-color: #F6FBFF; /*#F4FAFF*/
+	margin: -10px -0.9cm 0 -0.9cm;
+	padding: 0px 0.9cm 28px 0.9cm;
+}
+.cerna {
+	background-color: #F2F0EE;
+	margin: -10px -0.9cm 0 -0.9cm;
+	padding: 0px 0.9cm 28px 0.9cm;
+}
+a:hover.i, a:link.i, a:visited.i {
+	border-style: none none none none;
+}
+
+
+
+/*
+.op {
+	margin-left: 15px;
+	margin-top: 2ex;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: smaller;
+}
+
+.ot {
+	margin-top: 0ex;
+	margin-bottom: 0ex;
+	margin-left: 15px;
+	text-align: center;
+	font-size: smaller;
+}
+.h {
+	text-align: center;
+	text-indent: 0ex;
+	margin-bottom: 2ex;
+	margin-top: 5ex;
+}
+.b {
+	margin-left : 4ex;
+	text-indent : -4ex;
+*/
+
+/*
+h3 {
+	font-family:  Georgia, Garamond, serif;
+	text-align: center;
+	margin-top: 3ex;
+	letter-spacing: 2px;
+}
+h4 {
+	font-family:  Georgia, Garamond, serif;
+	text-align: center;
+	margin-top: 6ex;
+	letter-spacing: 1px;
+}
+p {
+	text-indent: 2em;
+	margin-bottom: -2ex;
+}
+P.h {
+	text-indent: 0ex;
+	margin-bottom: -1ex;
+	margin-top: 4ex;
+	text-align: center;
+	font-size: x-large;
+}
+OL {
+	margin-top: 4ex;
+	margin-bottom: -0.4ex;
+}
+LI {
+	margin-bottom: 0.4ex;
+}
+TABLE {
+	margin-top: 4ex;
+	margin-bottom: -0.4ex;
+}
+I {
+	letter-spacing: 1px;
+}
+.o {
+	margin: 3ex 0 14px 4ex;
+	font-size: 84%;
+	text-align: center;
+}
+.xp {
+	text-indent : 0px;
+}
+*/
