@@ -1,0 +1,47 @@
+BODY {
+	background-image: url(asa.jpg);
+	text-align: justify;
+	margin: 1cm 1cm 0cm 1cm;
+	font-family: 'Warnock Pro Light',serif;
+}
+A {
+	color: #0063c6;
+	text-decoration: none;
+}
+A:visited {
+	color: #cc0099;
+}
+A:hover {
+	color: Red;
+	text-decoration: underline;
+}
+P {
+	text-indent: 5ex;
+	margin-bottom: -1.7ex;
+}
+H4 {
+	letter-spacing: 1px;
+	margin-bottom: -1ex;
+}
+TABLE {
+	margin-top: 4ex;
+	margin-left: 6ex;
+}
+/*IMG {
+	margin-top: 1.3ex; margin-left: 3ex;
+}*/
+SUP {
+	font-family: 'Times New Roman',Times,serif;
+}
+.xp {
+	text-indent: 0ex;
+}
+.t {
+	margin-top: 4ex;
+	margin-left: 6ex;
+	margin-bottom: 2.3ex;
+	text-indent: 0ex;
+}
+.m {
+	letter-spacing: 3px;
+}
