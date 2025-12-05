@@ -2,6 +2,7 @@ BODY {
 	background-image: url(asa.jpg);
 	text-align: justify;
 	margin: 1cm 1cm 0cm 1cm;
+	max-width: 900px;
 	font-family: 'Warnock Pro Light',serif;
 }
 A {
@@ -44,4 +45,5 @@ SUP {
 }
 .m {
 	letter-spacing: 3px;
+
 }
